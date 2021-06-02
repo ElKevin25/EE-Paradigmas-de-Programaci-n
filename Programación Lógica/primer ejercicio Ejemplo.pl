@@ -1,0 +1,19 @@
+padre(alfredo, kevin).
+padre(alfredo, marvin).
+padre(alfredo, rubi).
+padre(alfredo, freddy).
+padre(mayolo, alfredo).
+madre(gloria, kevin).
+madre(gloria, marvin).
+madre(gloria, rubi).
+madre(gloria, freddy).
+madre(dimitila, alfredo).
+abuelo(mayolo, kevin).
+abuelo(mayolo, marvin).
+abuelo(mayolo, rubi).
+abuelo(mayolo, freddy).
+abuela(domitila, kevin).
+abuela(domitila, marvin).
+abuela(domitila, rubi).
+abuela(domitila, freddy).
+hermano(A, B) :- padre(C, A), padre(C, B).
